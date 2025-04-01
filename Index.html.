@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doshlorm Fashion</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Doshlorm Fashion</h1>
+    <p>Loading the latest fashion trends...</p>
+    <script>
+        setTimeout(() => {
+            document.body.innerHTML = "<h1>April Fool! 😂</h1><p>Gotcha!</p>";
+        }, 3000);
+    </script>
+</body>
+</html>
